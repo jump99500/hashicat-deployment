@@ -1,4 +1,5 @@
-module "hashicat_infra" {
+module "hashicat_prod" {
   source = "./hashicat-infrastructure"
-  prefix = "dev"
+  prefix = "prod"
 }
+
